@@ -1,0 +1,79 @@
+﻿Name:
+Name:
+
+
+
+
+There are 2 ways to collaborate with github. Having team members fork your repo or adding collaborators to your repo.  This exercise demonstrates github collaboration via adding collaborators to your repo.  
+
+
+Read these instructions:
+* This is done with a partner.  Make a copy of this document and share it with your partner.
+* One of you is the "Repo Owner" and the other(s) are "Collaborators".  
+* You need to help each other with each step. 
+* Work together to answer the questions in red.
+
+
+
+
+Step 1 - Completed by "Repo Owner" with help from "Collaborators". "Repo Owner" sets up a new repo. Use the ritual!
+* Create a local repo and add a Readme.md with a few verses of your favorite song
+* Add a blank line between each line in the song (use editor shortcuts)
+* Commit and push your repo to github
+* Add your partner as a collaborator
+
+
+Step 2 - Completed by "Collaborators" with help from "Repo Owner". "Collaborators" clones the repo.
+* Accept the email invite as a repo collaborator
+* Clone the repo onto your machine
+* Now you’ve both got the repo and can collaborate on the project
+
+
+Step 3 - Completed by "Repo Owner" with help from "Collaborators". "Repo Owner" makes a change.
+* Pick one of the lines in the song and add a few emojis to it.
+* Make a commit with a message indicating the line changed
+* Push the changes to github
+* Make sure that both "Repo Owner" and "Collaborators" see the changes on github
+
+
+Step 4 - Completed by "Collaborators" with help from "Repo Owner". "Collaborators" makes a change
+* Pick a different line in the song and add a few emojis to it.
+* Make a commit with a message indicating the line changed
+* Try to push the changes to github
+* Read the error message and explain in your own words what it the error message means
+* How do you fix it? Hint: If an editor pops up it's asking you to write a message for a merge commit. Enter a message, save, and close the editor.
+* Before pushing, look at the README on "Collaborators" computer. Do you see both of your changes?
+* If yes, push to github. Check github to make sure both changes are there.
+
+
+
+
+Merge conflict time. Now you’re both going to change the same line of the song. Imagine if you were working on code with your partner and you both modified the same line of code. This is what would happen.
+
+
+
+
+Step 5 - Completed by "Repo Owner" with help from "Collaborators"
+* Add an emoji to a different line
+* Make a commit with a message indicating the line changed
+* Push the changes to github (do you need to pull first to get the latest changes locally?)
+* Make sure that both "Repo Owner" and "Collaborators" see the changes on github
+
+
+Step 6 - Completed by "Collaborators" with help from "Repo Owner"
+* Add an emoji to the same line that "Repo Owner" changed in Step 5 above
+* Make a commit with a message indicating the line changed
+* Try to push the changes to github. You should see an error message but you know what to do now.
+* What error do you see?  What does it mean?
+* Look at your README.  Copy and paste the merge conflict here
+* Fix the merge conflict by talking to each other and deciding what the line should be. Delete all the extra stuff added by git.
+* Copy the agreed upon line here.
+* Make a commit with a message “resolved merge conflict and the line #”
+* push the changes to github.
+* Use git log to examine all the commits. Do you see both people in the log?
+* Check github to make sure everything looks good. You just resolved a merge conflict!
+
+
+
+
+Want to know more about merge conflicts, fast-forwards, and rebasing and what they really do? Read more here.
