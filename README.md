@@ -1,6 +1,6 @@
 Roll up roll up for the Mystery Tour
 
-Roll up =) =) roll up for :) the Mystery Tour :D
+Roll :P up =) =) roll up for :) the Mystery Tour :D
 
 Roll up
 
